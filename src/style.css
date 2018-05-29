@@ -1,11 +1,18 @@
-#titulo {
+#titulo, #buttom {
     text-align: center;
 }
 
 #cuadroTexto {
     text-align: center;
+
 }
 
-#buttom {
-    text-align: center;
+body {
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+}
+
+header {
+    background-image: url(papper.jpg);
+
 }
