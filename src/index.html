@@ -6,6 +6,28 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <h1 id="titulo">Código Cesar</h1>
+
+<!--Cuadro de texto  -->
+  <div id="cuadroTexto">
+    <label>Introduzca el texto</label>
+    <br>
+    <textarea id="text"></textarea>
+    <br>
+    <label>Texto cifrado</label>
+    <br>
+    <textarea id="text1"></textarea>
+  </div>
+
+<!--Botones  -->
+
+  
+  <section id="buttom">
+    <button onclick="cifra()">Cifrar</button>
+    <button onclick="decifra()">Descifrar</button>
+    <input type="reset" onclick="botonReset()" value="Reset"><br>
+    <input type="number" placeholder="Clave">
+  </section>
 
   <div id="root"></div>
 
