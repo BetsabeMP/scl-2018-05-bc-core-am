@@ -9,22 +9,14 @@
 <body>
 
   <header>
-  <h1 id="titulo">Código César</h1>
-  
+    <h1 id="titulo">Código César</h1>
   </header>
-
-<!-- Clave -->
-  <div id="key1">
-    <input type="number"  placeholder="Clave">
-  </div>
-  <br>
 
 <!-- Cifrado -->
   <div id="cuadroTexto">
-    <label>Cifrar texto</label>
-    <br>
-    <textarea id="text"></textarea>
-    <button onclick="cifra()">Cifrar</button>
+    <input type="number" placeholder="Clave">
+    <button id="btnCifrar">Cifrar</button>
+    <textarea id="text" name="texto" cols="30" rows="5"></textarea>
     <h5 id="msje1">Mensaje</h5>
     
 <!-- Decifrado -->

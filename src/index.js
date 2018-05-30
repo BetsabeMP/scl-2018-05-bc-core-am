@@ -1,14 +1,12 @@
-function botonReset() {
-    document.getElementById("text").value = "";
-    document.getElementById("text1").value = "";
-}
+window.onload = () => {
 
-function cifra() {
-    let message = document.getElementById("text").value;
-    document.getElementById("msje1").innerHTML = message;
-}
+    const btn1 = document.getElementById("btnCifrar");
 
-function decifra() {
-    let message = document.getElementById("text1").value;
-    document.getElementById("msje2").innerHTML = message;
+    encodeBtn.addEventListener("click", () => {
+        const strCifrar = document.getElementById("text").value;
+        const num1 = parseInt(document.getElementById("number").value);
+        const msjeCifrar = window.cipher.encode(str, num1);
+        document.getElementById("msje1").innerHTML = msjeCifrar;
+      });
+
 }
