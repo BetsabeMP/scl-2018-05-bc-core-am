@@ -10,29 +10,36 @@
 
   <header>
   <h1 id="titulo">Código César</h1>
+  
   </header>
 
-<!--Cuadro de texto  -->
+<!-- Clave -->
+  <div id="key1">
+    <input type="number"  placeholder="Clave">
+  </div>
+  <br>
+
+<!-- Cifrado -->
   <div id="cuadroTexto">
-    <label>Introduzca el texto</label>
+    <label>Cifrar texto</label>
     <br>
     <textarea id="text"></textarea>
-    <br>
-    <label>Texto cifrado</label>
+    <button onclick="cifra()">Cifrar</button>
+    <h5 id="msje1">Mensaje</h5>
+    
+<!-- Decifrado -->
+    <label>Decifrar texto</label>
     <br>
     <textarea id="text1"></textarea>
+    <button onclick="decifra()">Descifrar</button>
+    <h5 id="msje2">Mensaje</h5>
+
+<!-- Reset -->
+    <input type="reset" onclick="botonReset()" value="Reset"><br>
   </div>
 
-<!--Botones  -->
 
-  
-  <section id="buttom">
-    <button onclick="cifra()">Cifrar</button>
-    <button onclick="decifra()">Descifrar</button>
-    <input type="reset" onclick="botonReset()" value="Reset"><br>
-    <input type="number" placeholder="Clave">
-  </section>
-
+<!-- No modificar -->
   <div id="root"></div>
 
   <script src="cipher.js"></script>

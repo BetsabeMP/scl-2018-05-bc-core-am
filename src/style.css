@@ -1,15 +1,11 @@
-#titulo, #buttom {
+#titulo, #buttom, #cuadroTexto, #key1, #btnreset {
     text-align: center;
 }
 
-#cuadroTexto {
-    text-align: center;
-
-}
 
 body {
     font-family: 'Cinzel', serif;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 header {
