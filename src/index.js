@@ -1,5 +1,4 @@
 window.onload = () => {
-
     const btn1 = document.getElementById("btnCifrar");
 
     btn1.addEventListener("click", () => {
@@ -18,12 +17,12 @@ window.onload = () => {
         document.getElementById("msje2").innerHTML = msjeDecifrar;
     });
 
+    
 };
 
 
-     /*function botonReset() {
-        document.getElementById("clave1").value = "";
-        document.getElementById("text").value = "";
-        document.getElementById("msje1").value = "";
-    }*/
-
+/*function botonReset() {
+    document.getElementById("clave1").value = "";
+    document.getElementById("text").value = "";
+    document.getElementById("msje1").value = "";
+}*/
