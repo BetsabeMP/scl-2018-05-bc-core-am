@@ -17,11 +17,15 @@ window.onload = () => {
         document.getElementById("msje2").innerHTML = msjeDecifrar;
     });
 
+    const btnRst1 = document.getElementById("rst1");
+
+    btnRst1.addEventListener("click", () => {
+        document.getElementById("clave1").value = "";
+        document.getElementById("text").value = "";
+        document.getElementById("clave2").value = "";
+        document.getElementById("text1").value = "";
+        document.getElementById("msje2").value = " ";
+    });
     
 };
 
-/*function botonReset() {
-    document.getElementById("clave1").value = "";
-    document.getElementById("text").value = "";
-    document.getElementById("msje1").value = "";
-}*/
