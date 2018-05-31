@@ -6,7 +6,7 @@ El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es una de las t
 
 ## ¿Cómo descargar, instalar y ejecutar la aplicación?
 
-Desde tu smartphone o computador ingresa a tu store
+
 
 ## ¿Cómo funciona?
 
@@ -15,7 +15,9 @@ Medianta una clave única podrás obtener un cifrado (código) que sólo tú y l
 **Ejmemplo**
 
 
-//debe explicar cómo descargar, instalar y ejecutar la aplicación así como una introducción a la aplicación, su funcionalidad y decisiones de diseño que tomaron.
+# Diseño
+
+
 
 
 
