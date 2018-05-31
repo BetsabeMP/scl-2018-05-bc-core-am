@@ -1,4 +1,6 @@
 window.onload = () => {
+    
+    //Códificar mensaje
     const btn1 = document.getElementById("btnCifrar");
 
     btn1.addEventListener("click", () => {
@@ -8,6 +10,7 @@ window.onload = () => {
         document.getElementById("msje1").innerHTML = msjeCifrar;
     });
 
+    //Decifrar código
     const btn2 = document.getElementById("btnDecifrar");
 
     btn2.addEventListener("click", () => {
@@ -17,6 +20,7 @@ window.onload = () => {
         document.getElementById("msje2").innerHTML = msjeDecifrar;
     });
 
+    //Botón reset
     const btnRst1 = document.getElementById("rst1");
 
     btnRst1.addEventListener("click", () => {
