@@ -14,24 +14,33 @@
 
 <!-- Cifrado -->
   <div>
-    <p>Cifrar texto</p>
+    <p id="txtCif">Cifrar texto</p>
+    <br>
     <input id="clave1" type="number" placeholder="Clave">
-    <button id="btnCifrar">Cifrar</button>
+    <br>
     <textarea name="texto" id="text" cols="30" rows="5"></textarea>
+    <button id="btnCifrar">Cifrar</button>
+    <br>
     <h5 id="msje1">Mensaje</h5> 
+    <br>
   </div>
 
 <!-- Decifrado -->
   <div>
-    <p>Decifrar texto</p>
+    <p id="txtDesc">Decifrar texto</p>
+    <br>
     <input id="clave2" type="number" placeholder="Clave">
-    <button id="btnDecifrar">Decifrar</button>
+    <br>
     <textarea name="texto" id="text1" cols="30" rows="5"></textarea>
+    <br>
+    <button id="btnDecifrar">Decifrar</button>
+    <br>
     <h5 id="msje2">Código</h5>
+    <br>
   </div>
 
 <!-- Reset -->
-    <input type="reset" onclick="botonReset()" value="Reset"><br>
+    <input id="reset" type="reset" onclick="botonReset()" value="Reset"><br>
   
 
 <!-- No modificar -->

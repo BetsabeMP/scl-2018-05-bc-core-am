@@ -13,13 +13,12 @@ window.onload = () => {
     btn2.addEventListener("click", () => {
         const str2 = document.getElementById("text1").value;
         const num2 = parseInt(document.getElementById("clave2").value);
-        const msjeDecifrar =window.cipher.decode(str2, num2);
+        const msjeDecifrar = window.cipher.decode(str2, num2);
         document.getElementById("msje2").innerHTML = msjeDecifrar;
     });
 
     
 };
-
 
 /*function botonReset() {
     document.getElementById("clave1").value = "";
