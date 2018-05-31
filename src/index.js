@@ -28,7 +28,6 @@ window.onload = () => {
         document.getElementById("text").value = "";
         document.getElementById("clave2").value = "";
         document.getElementById("text1").value = "";
-        document.getElementById("msje2").value = " ";
     });
     
 };
