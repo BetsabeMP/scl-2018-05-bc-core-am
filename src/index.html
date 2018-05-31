@@ -13,24 +13,27 @@
   </header>
 
 <!-- Cifrado -->
-  <div id="cuadroTexto">
-    <input type="number" placeholder="Clave">
+  <div>
+    <p>Cifrar texto</p>
+    <input id="clave1" type="number" placeholder="Clave">
     <button id="btnCifrar">Cifrar</button>
-    <textarea id="text" name="texto" cols="30" rows="5"></textarea>
-    <h5 id="msje1">Mensaje</h5>
-    
+    <textarea name="texto" id="text" cols="30" rows="5"></textarea>
+    <textarea readonly name="texto" id="msje1" cols="30" rows="5"></textarea>
+  </div>
+
 <!-- Decifrado -->
-    <label>Decifrar texto</label>
-    <br>
-    <textarea id="text1"></textarea>
-    <button onclick="decifra()">Descifrar</button>
-    <h5 id="msje2">Mensaje</h5>
+  <div>
+    <p>Decifrar texto</p>
+    <input id="clave2" type="number" placeholder="Clave">
+    <button id="btnDecifrar">Decifrar</button>
+    <textarea name="texto" id="text1" cols="30" rows="5"></textarea>
+    <textarea readonly name="texto" id="msje2" cols="30" rows="5"></textarea>
+  </div>
 
 <!-- Reset -->
     <input type="reset" onclick="botonReset()" value="Reset"><br>
-  </div>
-
-
+  
+    
 <!-- No modificar -->
   <div id="root"></div>
 
