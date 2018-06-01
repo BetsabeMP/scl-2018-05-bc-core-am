@@ -27,7 +27,7 @@ el *cifrado céfrado* :eyes:, lo mejor es que puedes escoger la clave que desees
 
 
 ## DISEÑO
-El diseño fue elegido por el nombre, al leer "**cifrado césar**" todo lo que me vino a la mente fue algo antiguo, un pergamino quizás, así escogí la mejor imagen y estilo de letra que me convencieron de que lo que quiero es un código basado en la antiguedad, agradable y fácil de usar para las personas del sigle XXI :computer:.
+El diseño fue elegido por el nombre, al leer "**cifrado césar**" todo lo que me vino a la mente fue algo antiguo, un pergamino quizás, así escogí la mejor imagen y estilo de letra que me convencieron de que lo que quiero es un código basado en la antigüedad, agradable y fácil de usar para las personas del siglo XXI :computer:.
 
 
 
