@@ -21,6 +21,7 @@ body {
     cursor: pointer;
     border-bottom-color: brown;
     border-radius: 1em;
+    margin: 1em;
 }
 
 #btnCifrar, #btnDecifrar {
