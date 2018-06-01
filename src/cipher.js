@@ -2,8 +2,8 @@ window.cipher = {
 
   encode: (str, num0) => {
 
-    const strMy = str.toUpperCase();
-    const letters = strMy.length;
+    const strMy = str.toUpperCase();  
+    const letters = strMy.length;  
     let newStr = "";
 
     for (let i = 0; i < letters; i++) {
