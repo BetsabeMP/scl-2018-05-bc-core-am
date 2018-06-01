@@ -36,6 +36,7 @@ window.cipher = {
       letter_a = strMy1.charCodeAt(a);
       letter_b = 0;
       letter_b = letter_a + (26 -(num_1) % 26);
+      
       if (90 < letter_b) {
         letter_b = letter_b % 90 + 64;
       }
