@@ -32,6 +32,11 @@ body {
     border-radius: 0.3em;
 }
 
+button:hover {
+    background-color: chocolate;
+    color: aliceblue;
+}
+
 #txtDesc, #txtCif {
     font-family: 'Cinzel', serif;
     font-size: 2em;
