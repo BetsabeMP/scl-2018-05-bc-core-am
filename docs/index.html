@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1 id="titulo">Cifrado César</h1>
+  </header>
+
+<!-- Cifrado -->
+  <div>
+    <p id="txtCif">Cifrar texto</p>
+    <input id="clave1" type="number" placeholder="Clave">
+    <br>
+    <textarea name="texto" id="text" cols="30" rows="5"></textarea>
+    <br>
+    <button id="btnCifrar">Cifrar</button>
+    <br>
+    <strong><p id="msje1">Código</p></strong>
+    <br>
+  </div>
+
+<!-- Decifrado -->
+  <div>
+    <p id="txtDesc">Decifrar código</p>
+    <input id="clave2" type="number" placeholder="Clave">
+    <br>
+    <textarea name="texto" id="text1" cols="30" rows="5"></textarea>
+    <br>
+    <button id="btnDecifrar">Decifrar</button>
+    <br>
+    <strong><p id="msje2">Mensaje</p></strong>
+    <br>
+  </div>
+
+<!-- Reset -->
+  <input id="rst1" type="reset" value="Reset">
+  
+
+<!-- No modificar -->
+  <div id="root"></div>
+
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
