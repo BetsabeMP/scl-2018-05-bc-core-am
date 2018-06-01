@@ -12,7 +12,7 @@ Mediante una clave única de números podrás obtener un cifrado (código) que s
 
 **Ejemplo**
 Tú y tu mejor amig@ quieren ponerse de acuerdo para una fiesta sorpresa. No saben cómo planificarla sin que el cumpleañer@ lo sepa, así que la mejor opción es planificarla en código. Aquí es cuando milagrosamente encuentran
-el *cifrado céfrado* :eyes:, lo mejor es que puedes escoger la clave que desees y compartirla con los invitados para que sepan cuándo y dónde es la fiesta!.
+el *cifrado césar* :eyes:, lo mejor es que puedes escoger la clave que desees y compartirla con los invitados para que sepan cuándo y dónde es la fiesta!.
 
 
 ## GUÍA DE INSTALACIÓN
